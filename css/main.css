@@ -311,6 +311,10 @@ h1.navbar-brand {
     padding: 0;
 }
 
+.slider_text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .sl-slider-wrapper {
     width: 100%;
     margin: 0 auto;
