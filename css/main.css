@@ -15,11 +15,27 @@
 /* =================================== */
 
 body {
-    background-color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 24px;
     font-size: 16px;
-    color: #818181;
+    color: #f0f0f0;
+}
+
+
+#skills{
+    background-color: #e3f2fd;
+}
+
+.progress-bar{
+    color:black;
+    background-color:#1976d2
+}
+
+#portfolio{
+
+    background-color:#1e1e2f;
+    color:#ffffff;
+    padding: 50px 0;
 }
 
 figure, p, address {
@@ -160,6 +176,7 @@ main > section {
 
 .sec-title {
     margin-bottom: 50px;
+    color:#ffffff;
 }
 
 .sec-title.white {
@@ -172,6 +189,7 @@ main > section {
     padding-bottom: 30px;
     position: relative;
     text-transform: uppercase;
+    color:#ffffff;
 }
 
 .sec-title.white h2 {
@@ -272,6 +290,12 @@ main > section {
 /*	Header
 /* ==========================================*/
 
+#my_name {
+    text-align: left;
+    font-size:20px;
+    color:white;
+}
+
 #navigation {
     -webkit-transition: all 0.8s ease 0s;
        -moz-transition: all 0.8s ease 0s;
@@ -301,6 +325,11 @@ h1.navbar-brand {
     text-transform: uppercase;
 }
 
+/**Dark Cyan Blue hover navbar**/
+
+.navbar-nav li:hover{
+    background-color: #2c3e50;
+}
 
 /*=================================================================
 	Home Slider
@@ -510,17 +539,30 @@ h1.navbar-brand {
     left: 0;
 }
 
+
+
+/*=================================================================
+GMARTOS LOGO
+/*================================================================*/
+
+
+
+
+/*=================================================================
+Ending GMARTOS LOGO
+/*================================================================*/
+
 /*=================================================================
 	About
 ==================================================================*/
 
-#about {
-    background-color: #009EE3;
-    color: #fff;
+#about{
+    background-color: #f2f2f2;
+
+    color:#333
 }
 
 #about h3 {
-    color: #fff;
     margin: 0 0 35px;
     text-transform: uppercase;
 }
@@ -537,10 +579,11 @@ h1.navbar-brand {
 }
 
 #about .message-body {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 20px;
     margin-bottom: 70px;
-}
+    text
+};
 
 .owl-buttons {
     border: 2px solid #fff;
@@ -956,11 +999,6 @@ textarea.form-control {
         font-size: 45px;
     }
 
-/* about */
-    .recent-works {
-        margin-bottom: 50px;
-    }
-
     .service-item {
         margin-bottom: 50px;
     }
@@ -1045,12 +1083,6 @@ textarea.form-control {
     .caption-content strong {
         font-size: 22px;
     }
-
-/* about */
-    .recent-works {
-        margin-bottom: 85px;
-    }
-
     #about h3 {
         font-size: 18px;
         margin: 0 0 35px !important;
@@ -1060,6 +1092,35 @@ textarea.form-control {
         margin-top: 20px;
     }
 
+#about {
+    padding: 50px 0;
+}
+
+
+
+.welcome-block {
+    text-align: center;
+}
+
+.message-body {
+    display: inline-block;
+    text-align: center;
+}
+
+.message-body img {
+    display: block;
+    margin: 0 auto;
+    width: 150px; /* Ajusta según el tamaño deseado */
+    border-radius: 50%; /* Opcional para hacer la imagen redonda */
+}
+
+.message-body p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+    
     #about .message-body {
         margin-bottom: 45px;
     }
@@ -1220,4 +1281,5 @@ textarea.form-control {
     .footer-content {
         width: 380px;
     }
+}
 }
