@@ -362,17 +362,22 @@
 						
 						<div class="col-md-7 contact-form wow animated fadeInLeft">
 							<form action="mailto:4841992@alu.murciaeduca.es" method="post" enctype="text/plain">
+								
 								<div class="input-field">
-									<input type="text" name="name" class="form-control" placeholder="Paco...">
+									<label for="name">Type your name</label> 
+									<input type="text" name="name" id="name" class="form-control" placeholder="Paco...">
 								</div>
 								<div class="input-field">
-									<input type="email" name="email" class="form-control" placeholder="Paco123@gmail.com...">
+									<label for="email">Type a valid email</label>
+									<input type="email" name="email" id="email" class="form-control" placeholder="Paco123@gmail.com...">
 								</div>
 								<div class="input-field">
-									<input type="text" name="subject" class="form-control" placeholder="Subject...">
+									<label for="subject">Please Type your subject</label>
+									<input type="text" name="subject" id="subject" class="form-control" placeholder="Subject...">
 								</div>
 								<div class="input-field">
-									<textarea name="message" class="form-control" placeholder="Your message..."></textarea>
+									<label for="message">Please give me your feedback</label>
+									<textarea name="message" id="message" class="form-control" placeholder="Your message..."></textarea>
 								</div>
 						       	<button type="submit" id="submit" class="btn btn-blue btn-effect">Send</button>
 							</form>

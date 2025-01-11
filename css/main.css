@@ -798,6 +798,10 @@ ul.external li a:hover {
     color:#333
 }
 
+#contact label{
+    color:#4A4A4A;
+}
+
 .input-field {
     margin-bottom: 10px;
 }
