@@ -784,6 +784,20 @@ ul.external li a:hover {
 	Contact
 ==================================================================*/
 
+#contact{
+
+    background-color: #f8f9fa ;
+    color:black;
+}
+
+#contact h2{
+    color:black;
+}
+
+#contact p{
+    color:#333
+}
+
 .input-field {
     margin-bottom: 10px;
 }
